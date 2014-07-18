@@ -37,8 +37,9 @@ window.addEventListener('deviceorientation', function(eventData) {
   } else if (xTilt < -40) {
     xTilt = -(xTilt + 80);
   }
-
-  background.y = yTilt * 1.5;
-  background.x = xTilt * 2.5;
+  
+  // You'll need to add a layer for the background you want to parallax
+  // background.y = yTilt * 1.5;
+  // background.x = xTilt * 2.5;
   
 }, false);
