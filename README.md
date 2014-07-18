@@ -1,0 +1,1 @@
+This is a mobile template to be used as a starting point and example for a Framer.js prototype.
